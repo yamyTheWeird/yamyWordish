@@ -1,0 +1,173 @@
+* {
+    user-select: none;
+    padding : 0;
+    margin : 0;
+}
+body,html{
+    height: 80vh;
+}
+h1{
+    font-weight: bolder;
+    font-size: 6vw;
+    font-family: serif;
+    margin: 2vw;
+}
+body {
+    background : white;
+    color : black;
+}
+.yamy{
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+}
+footer{
+    font-size: 2vw;
+    margin: 4vw;
+}
+hr{
+    margin: 1vw 0 2vw 0;
+}
+.letter,.action{
+    width: 8vw;
+    height: 14vw;
+    background-color: #D4D7DB;
+    border-radius: 1vw;
+    margin: 1vw .4vw;
+    font-weight: bolder;
+    font-size: 3.5vw;
+    border: none;
+}
+.boxes{
+    height: 15vw;
+    width: 15vw;
+    line-height: 15vw;
+    margin: .5vw;
+    background-color: white;
+    border: .5vw solid #D4D7DB;
+    display:inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 8vw;
+    text-align: 4vw;
+    }
+.action{
+    width: 13vw;
+    height: 14vw;
+    }
+@media screen  and (min-aspect-ratio: 3/5)
+{
+    h1{
+        margin: 2vw;
+    }
+    .boxes{
+        height: 12vw;
+        width: 12vw;
+        line-height: 12vw;
+    }
+}
+@media screen  and (min-aspect-ratio: 7/10)
+{
+    h1{
+        margin: 1vw;
+    }
+    .boxes{
+    height: 10vw;
+    width: 10vw;
+    line-height: 10vw;
+    }
+    body,html{
+        transform: scale(0.9);
+        }
+}
+@media screen  and (min-aspect-ratio: 4/5)
+{
+    h1{
+        margin: 1vw;
+    }
+    .boxes{
+        height: 8vw;
+        width: 8vw;
+        line-height: 8vw;
+        font-size: 4.8vw;
+    }
+    body,html{
+        transform: scale(0.85);
+        }
+}
+@media screen  and (min-aspect-ratio: 9/10)
+{
+    h1{
+        margin: 0;
+    }
+    .boxes{
+        height: 6vw;
+        width: 6vw;
+        line-height: 6vw;
+        font-size: 4.5vw;
+    }
+    body,html{
+        transform: scale(0.85);
+        }
+}
+@media screen  and (min-aspect-ratio: 11/10)
+{
+    h1{
+        margin: 0;
+    }
+    .boxes{
+        height: 4vw;
+        width: 4vw;
+        line-height: 4vw;
+        font-size: 3.5vw;
+    }
+    body,html{
+        transform: scale(0.8);
+        }
+}
+@media screen  and (min-aspect-ratio: 8/5)
+{
+    h1{
+        margin: 0;
+    }
+    .boxes{
+        height: 3vw;
+        width: 3vw;
+        line-height: 3vw;
+        font-size: 2.9vw;
+    }
+    body,html{
+        transform: scale(0.7);
+        }
+}
+@media screen  and (min-aspect-ratio: 7/5)
+{
+    h1{
+        margin: 0;
+    }
+    .boxes{
+        height: 3vw;
+        width: 3vw;
+        line-height: 3vw;
+        font-size: 2.8vw;
+    }
+    body,html{
+        transform: scale(0.65);
+        }
+}
+@media screen  and (min-aspect-ratio: 19/10)
+{
+    h1{
+        margin: 0;
+    }
+    .boxes{
+        height: 3vw;
+        width: 3vw;
+        line-height: 3vw;
+        font-size: 2.5vw;
+    }
+    body,html{
+        transform: scale(0.6);
+        }
+}
